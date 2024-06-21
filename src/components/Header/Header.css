@@ -1,0 +1,11 @@
+.container .navbar-brand span {
+  color: #7f42cf;
+  line-height: 47.4px;
+  font-weight: 100;
+  font-size: 50px;
+  font-style: oblique;
+  font-family: cursive;
+}
+.navbar button{
+  margin: 0;
+}

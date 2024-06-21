@@ -1,0 +1,79 @@
+.sectionOneAbout {
+ background: url("../../../Images/about/pexels-cottonbro-studio-6153354.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.sectionOneAbout Header{
+  z-index: 45458;
+}
+.parallax { 
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.parallax p {
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: 40px;
+  z-index: 8;
+}
+.parallax h1 {
+  font-family: cursive;
+  background-image: url("../../../Images/about/sunset-1373171_1280.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 200px;
+  font-weight: 800;
+  letter-spacing: 40px;
+  margin-bottom: 250px;
+  
+}
+.parallax img {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  width: 100%;
+}
+#left {
+  transform: translateX(-60px);
+  z-index: 10;
+}
+#right {
+  transform: translateX(60px);
+}
+#grass {
+  top: 0;
+  left: 0;
+  height: 100%;
+  object-fit: cover;
+}
+.jj {
+  max-width: 100px;
+}
+@media (max-width: 1332px) {
+ .hide {
+     display: none;
+  }
+  .parallax h1 {
+    font-size: 120px;
+    font-weight: 800;
+    letter-spacing: 20px;
+   
+
+  }
+}
+@media (max-width: 768px) {
+  .parallax h1 { 
+    font-size: 70px;
+    font-weight: 200;
+    letter-spacing: 10px;
+  }
+}

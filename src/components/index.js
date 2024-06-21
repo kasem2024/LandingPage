@@ -1,0 +1,6 @@
+export {default as Header} from './Header/Header'
+export {default as Content} from './Content/Content'
+export {default as Footer} from './Footer/Footer'
+export {default as SectionOne} from './OurTeam-Section/SectionOne/SectionOne'
+export {default as SectionTow} from './OurTeam-Section/SectionTow/SectionTow'
+export {default as SectionThree} from './OurTeam-Section/SectionThree/SectionThree'

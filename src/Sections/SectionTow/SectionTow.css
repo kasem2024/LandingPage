@@ -1,0 +1,63 @@
+.sectionTow {
+  background-color: #eeeeee1a;
+}
+.sectionTow h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  font-weight: 700;
+  padding-top: 70px;
+}
+.The-depatments {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+.The-depatments .column {
+  width: 30%;
+  /* #76267b4d */
+  height: auto;
+  background-color: rgba(29, 27, 27, 0.745);
+  border-radius: 6px;
+  position: relative;
+  text-align: center;
+}
+.The-depatments img {
+  width: 80%;
+  height: 194px;
+  border-radius: 6px;
+  /* position: absolute; */
+}
+.The-depatments h4 {
+  color: var(--primary-color);
+  font-weight: var(--weight-h);
+  padding: 20px 0;
+  font-family: var(--font-family);
+}
+.The-depatments p {
+  padding: 20px 0;
+  color: var(--color-p);
+  line-height: var(--line-height);
+}
+@media (max-width: 768px) {
+  .The-depatments {
+    flex-direction: column;
+  }
+  .The-depatments .column {
+    margin-top: 20px;
+    max-width: 100%;
+    width: max-content;
+  }
+  .The-depatments .column h4 {
+    font-weight: var(--weight-h);
+  }
+  .sectionTow h1 {
+    color: #7f42cf;
+    font-weight: 100;
+    font-size: 62px;
+    font-style: oblique;
+    font-family: cursive;
+    text-align: center;
+  }
+}

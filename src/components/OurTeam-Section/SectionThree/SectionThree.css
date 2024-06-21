@@ -1,0 +1,100 @@
+:root {
+  --t: 20s;
+}
+.SectionThreeAbout {
+  background-color: rgb(248, 236, 248);
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SectionThreeAbout .Card {
+  width: 252px;
+  margin: 0 80px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.SectionThreeAbout img {
+  width: 250px;
+  height: 350px;
+  border-radius: 15px;
+}
+
+.SectionThreeAbout .info-card {
+  padding: 30px 0;
+}
+.SectionThreeAbout .info-person {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom:1%;
+}
+.SectionThreeAbout .link {
+    display: flex;
+  border-radius: 10%;
+  background-color: rgb(77, 129, 129);
+  padding: 3px;
+  
+}
+.SectionThreeAbout .link a{
+    margin: auto;
+    color: rgb(149, 0, 255);
+}
+.SectionThreeAbout .link a:hover{
+   
+    color: rgb(208, 0, 255);
+}
+
+.SectionThreeAbout .none {
+  position: absolute;
+  bottom: -1000%;
+  background-color: aliceblue;
+  width: 100%;
+}
+.SectionThreeAbout .Card:hover .none {
+  bottom: 0;
+}
+.SectionThreeAbout .Card:hover img {
+  transform: rotate(5deg) scale(1.2);
+}
+
+/* start slide */
+
+.SectionThreeAbout .slide {
+  display: inline-flex;
+  white-space: nowrap;
+}
+.SectionThreeAbout .slide .FristSlide {
+  animation: slide var(--t) linear infinite;
+}
+.SectionThreeAbout .slide .SecondSlide {
+  animation: slide var(--t) linear infinite;
+}
+
+.SectionThreeAbout .slide:hover div {
+  animation-play-state: paused;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+@media (max-width: 768px) {
+    .SectionThreeAbout .Card {
+        width: 290px;
+    }
+
+    .SectionThreeAbout img {
+        width: 300px;
+        height: 500px;
+  
+      }
+    }

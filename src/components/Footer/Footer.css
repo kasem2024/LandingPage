@@ -1,0 +1,128 @@
+@media (min-width: 768px) {
+  footer .container {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  footer .container {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  footer .container {
+    width: 1300px;
+  }
+}
+
+footer .part1Footer h2 {
+  color: aqua;
+  padding-bottom: 20px;
+  position: relative;
+}
+footer .part1Footer h2::after {
+  content: "";
+  width: 120px;
+  height: 3px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--adding-color);
+  bottom: 0;
+}
+
+.part1Footer ul li a {
+  color: rgb(8, 8, 8);
+  font-size: var(--size-p);
+  font-weight: var(--weight-p);
+}
+.part1Footer ul li a:hover {
+  color: rgb(254, 254, 254);
+  font-weight: var(--weight-h);
+}
+
+footer ul.icons {
+  display: flex;
+}
+@media (max-width: 768px) {
+  footer ul.icons {
+    margin: 0 auto;
+  }
+}
+footer .part2Footer p {
+}
+
+footer .part2Footer {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+@media (max-width: 768px) {
+  footer .part2Footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+footer .icon {
+  font-size: 8dvh;
+}
+footer .part2Footer p {
+  font-size: 8dvh;
+}
+.youtube {
+  color: rgb(1, 1, 1);
+}
+.youtube:hover {
+  color: rgb(255, 0, 0);
+}
+
+.facebook {
+  color: rgb(0, 0, 0);
+}
+
+.facebook:hover {
+  color: rgb(0, 55, 255);
+}
+.github {
+  color: rgb(0, 0, 0);
+}
+.github:hover {
+  color: rgb(31, 26, 26);
+}
+
+.part1Footer ul li a {
+  position: relative;
+}
+.part1Footer ul li a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+  background-color: #64346c;
+  -webkit-transform-origin: bottom right;
+  transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+
+  /* content: "";
+  width: 120px;
+  height: 3px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--adding-color);
+  bottom: 0;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0); */
+}

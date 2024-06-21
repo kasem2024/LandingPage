@@ -1,0 +1,67 @@
+.SectionTowAbout{
+    position: relative;
+    width: 100%;
+    background-color: #020912;
+    /* height: 100%; */
+}
+.circle{
+position: relative;
+   overflow: hidden;
+}
+.circleOne{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    float: right;
+    margin: 22px;
+    shape-outside: circle();
+}
+.circleTow{
+    width: 500px;
+    height:500px;
+    margin: 10px;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+}
+.articleAbout{
+    text-align: center;
+    padding: 50px 10px 25px;
+}
+.articleAbout h2{
+    font-size: 5rem;
+    font-family: cursive;
+    /* background-image: url(../../../Images/about/space-911785_1280.jpg);
+    background-size: cover;
+    background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text; */
+  color: rgba(245, 245, 245, 0.469);
+}
+.articleAbout p{    
+    font-size: 1.8rem;
+    font-weight: 800;
+    font-family: cursive;
+    /* background-image: url(../../../Images/about/space-7273891_1280.jpg);
+    background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text; */
+  color: rgba(245, 245, 245, 0.735);
+}
+/* responsive */
+@media (max-width: 768px) {
+    .circleTow{
+        display: none;
+    }
+    /* .mm{
+        width: 100%;
+        
+    } */
+    .circleOne{
+        float: none;
+        
+    }
+
+    
+}
+
