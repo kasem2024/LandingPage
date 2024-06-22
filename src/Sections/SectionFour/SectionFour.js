@@ -1,5 +1,6 @@
 import "./SectionFour.css";
-import picture from "../../Images/LandPage/Picsart_23-12-07_20-21-01-324.jpg";
+import picture from "../../Images/LandPage/Picsart1.png";
+// import picture from "../../Images/LandPage/Picsart_23-12-07_20-21-01-324.jpg";
 import { ButtonSecondry } from "../../components/Buttons/Button";
 
 const SectionFour = () => {
