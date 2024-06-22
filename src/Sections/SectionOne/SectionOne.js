@@ -17,10 +17,10 @@ const SectionOne = () => {
         </p>
         <div className="buttons">
           <ButtonSecondry className='.ButtonSecondry'>
-            <a href="/log">Sign up </a>
+            <a href="https://wizard-ai-chat.vercel.app/">Sign up </a>
           </ButtonSecondry>
           <ButtonSecondry>
-            <a href="/log">Sign in </a>
+            <a href="https://wizard-ai-chat.vercel.app/">Sign in </a>
           </ButtonSecondry>
         </div>
       </div>

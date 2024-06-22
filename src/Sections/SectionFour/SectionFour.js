@@ -19,7 +19,7 @@ const SectionFour = () => {
           Ac feugiat ante. Donec ultricies lobortis eros, nec auctor nisl semper
           ultricies. Aliquam sodales nulla dolor. Curabitur non bibendum ligula
         </p>
-        <ButtonSecondry>Learn More</ButtonSecondry>
+        <ButtonSecondry><a href="https://platform.openai.com/docs/introduction">Learn More</a></ButtonSecondry>
       </div>
     </div>
   );
